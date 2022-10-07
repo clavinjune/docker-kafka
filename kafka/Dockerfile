@@ -2,6 +2,8 @@
 
 FROM openjdk:8-jre-slim-buster
 
+LABEL "org.opencontainers.image.source"="https://github.com/clavinjune/docker-kafka"
+
 ENV DEBIAN_FRONTEND noninteractive
 ENV SCALA_VERSION 2.13
 ENV KAFKA_VERSION 3.3.1
